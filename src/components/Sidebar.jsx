@@ -2,6 +2,7 @@
 
 //import Foto from '../img/img perfil.jpg';
 import '../styles/components/sidebar.sass';
+import Contacts from './Contacts';
 import Networks from './Networks';
 
 
@@ -11,7 +12,7 @@ const Sidebar = () => {
       <img src={require('../img/img.jpg')} alt="Florencia " />
       <p className='title'> Desarrolladora Fulstack</p>
       <Networks/>
-      <p> Contacto </p>
+      <Contacts/>
       <a href=''className='btn'>Descargar CV</a> 
     </aside>
   )
