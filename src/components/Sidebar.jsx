@@ -10,7 +10,7 @@ const Sidebar = () => {
   return (
     <aside id='sidebar'>
       <img src={require('../img/img.jpg')} alt="Florencia " />
-      <p className='title'> Desarrolladora Fulstack</p>
+      <h3 className='title'> Desarrolladora Fullstack</h3>
       <Networks/>
       <Contacts/>
       <a href=''className='btn'>Descargar CV</a> 

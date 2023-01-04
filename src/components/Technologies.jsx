@@ -32,14 +32,14 @@ const tech= [
 const Technologies = () => {
   return (
     <section className='technologies'>
-     <h2> Tecnologias</h2>
+     <h2>Tecnologias</h2>
      <div className='technology-grid'>
       {
         tech.map((t)=> (
           <div className='technology-card' id={t.id} key={t.id}> 
-           {t.icon}
+           {t.name}
            <div className='technology-info'>
-            <h3>{t.name}</h3>
+            <h3>{t.icon}</h3>
             </div> 
           </div>
         ))

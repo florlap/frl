@@ -10,32 +10,32 @@
 .technology-grid
             display: flex
             flex-wrap: wrap
-            gap: 1.5rem
+            gap: 2rem
 
 
 .technology-card
               @include mixins.center
               gap: 1rem
               padding: 1rem
-              border: 1px solid #333
-              width: 80%
-              border-radius: variables.$container-border-radius
+              border: 2px solid #333
+              width: 40%
+              border-radius: variables.$card-border-radius
+              font-family: 'Roboto Flex', sans-serif
 
 
 .technology-info
 
-                h3
-                color: variables.$text-color
-                margin-bottom: 1rem
+              h3
+              color: variables.$text-color
+              margin-bottom: 1rem
 
-                svg 
-                    font-size: 6rem
-
-
-
+              svg 
+                   font-size: 3rem
+                   
+    
 #javascript
             svg 
-                color: #fde92f
+                 color: #fde92f
 
 
 #html
@@ -56,17 +56,17 @@
 
 #redux
             svg 
-                color: #8114ca  
+                 color: #8114ca  
 
 #sass
             svg 
-                color: #b6108c    
+                 color: #b6108c    
                 
 #postman
             svg
-                color: #db5609ea 
+                 color: #db5609ea 
 
 #postgresql
             svg
-                color: #3f7396       
+                 color: #3f7396       
 
