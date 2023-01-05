@@ -18,6 +18,7 @@ const Contacts = () => {
         <AiOutlineMail id='email-icon'/>
         <div>
             <h3>Mail</h3>
+            <a href='mailto:florencialapadatoff@gmail.com'> </a>
             <p>florencialapadatoff@gmail.com</p>
         </div>
     </div>
