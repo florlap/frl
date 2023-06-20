@@ -20,7 +20,9 @@ const Contacts = () => {
             <h3>Mail</h3>
             <a href='mailto:florencialapadatoff@gmail.com'
             target="_blank"
-            rel="noopener noreferrer"> <p>florencialapadatoff@gmail.com</p> </a>
+            rel="noopener noreferrer"> 
+            
+            <p >florencialapadatoff@gmail.com</p> </a>
             
         </div>
     </div>
