@@ -11,12 +11,12 @@ const redes = [
 
 const Networks = () => {
   return (
-  <section id='networks'>
+  <section id= 'networks'>
     <React.Fragment >
     
-    {redes.map((r)=> (
-      <ul className='redes-btn' id={r.name} key={r.name} >
-         <a href={r.href} > {r.icon} </a> 
+    {redes.map((red)=> (
+      <ul className='redes-btn' id={red.name} key={red.name} > 
+         <a href={red.href}> {red.icon} </a>  
       </ul>
 ))}
     </React.Fragment>

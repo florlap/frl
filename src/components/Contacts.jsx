@@ -3,10 +3,11 @@ import {AiFillPhone, AiOutlineMail, AiFillEnvironment} from 'react-icons/ai'
 import '../styles/components/contacts.sass'
 
 
-const Contacts = () => {
-  return (
-    <section id='contact'>
 
+const Contacts = () => {
+    return (
+        <section id='contact'>
+        
     <div className='info-card'>
         <AiFillPhone id='phone-icon'/>
         <div>
@@ -22,7 +23,7 @@ const Contacts = () => {
             target="_blank"
             rel="noopener noreferrer"> 
             
-            <p >florencialapadatoff@gmail.com</p> </a>
+            <a href='mailto:florencialapadatoff@gmail.com'>florencialapadatoff@gmail.com</a> </a>
             
         </div>
     </div>

@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Detail from './components/Detail';
+//import Detail from './components/Detail';
 import MainContent from './components/MainContent';
 import Networks from './components/Networks';
 import Sidebar from './components/Sidebar';
@@ -18,11 +18,10 @@ function App() {
       
  
      <Sidebar/>
-     <Networks/>
      <MainContent/> 
-
+  
         <Routes>
-        <Route path="/" element={<Detail />} />
+        {/* <Route path="/" element={<Detail />} /> */}
         </Routes>
     </div>
   );

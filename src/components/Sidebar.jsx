@@ -12,8 +12,8 @@ const Sidebar = () => {
       <img src={require('../img/img.jpg')} alt="Foto de Florencia " width="500"height="500" />
       <h3 className='title'> Desarrolladora Fullstack</h3>
       
-      <Networks/>
       <Contacts/>
+       <Networks/>
       <a href={require('../img/cv.pdf')} className='btn' target='blank'> Descargar CV</a> 
     </aside>
   )
