@@ -1,5 +1,4 @@
 
-import { imageListClasses } from '@mui/material'
 import {AiFillPhone, AiOutlineMail, AiFillEnvironment} from 'react-icons/ai'
 import '../styles/components/contacts.sass'
 
@@ -16,7 +15,7 @@ const Contacts = () => {
             <p>1155833569</p>
             <a href="https://api.whatsapp.com/send?phone=1155833569" >
 
-            <img src={require('../img/logowasap.jpg')} alt='' width="40" height="40" />
+            <img src={require('../img/wsp.png')} alt='' width="40" height="40" />
             </a>
         </div>
     </div>
@@ -42,4 +41,5 @@ const Contacts = () => {
   )
 }
 
-export default Contacts
+export default Contacts;
+
