@@ -15,7 +15,7 @@ const Contacts = () => {
             <p>1155833569</p>
             <a href="https://api.whatsapp.com/send?phone=1155833569" >
 
-            <img src={require('../img/wsp.png')} alt='' width="40" height="40" />
+            {/* <img src={require('../img/wsp.png')} alt='' width="40" height="40" /> */}
             </a>
         </div>
     </div>

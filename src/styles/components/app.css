@@ -1,0 +1,28 @@
+#portfolio {
+  background-color: #262626;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 3rem;
+  background-image: linear-gradient;
+}
+
+h1 {
+  width: 100%;
+  font-size: 6rem;
+  font-family: "Mc Laren", cursive;
+  text-shadow: 3px 3px 2x black;
+  margin-bottom: 0;
+  background: linear-gradient(90deg, #b377a6 0%, #ad7aad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  width: 80%;
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 0.2rem;
+  color: #d5bdd6;
+  margin-top: 4rem;
+}/*# sourceMappingURL=app.css.map */

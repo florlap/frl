@@ -14,6 +14,8 @@ function App() {
       <div>
         <h1> Hola :), </h1>
         <h1>  Soy Florencia Lapadatoff</h1>
+        <h2 className='title'> Desarrolladora Fullstack</h2>
+
       </div>  
       
  

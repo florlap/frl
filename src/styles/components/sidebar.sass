@@ -11,18 +11,36 @@
         text-align: center
         position: relative
         padding: 3rem 0 
+
         
+        section
+        display: flex
+        flex-direction: column
+
+        
+.h2
+        color: variables.$text-color-secondary
+        font-size: 2.4rem
+        font-family: 'Poppins', sans-serif
+        margin-bottom: 1.3rem
+        @include mixins.center 
+        justify-content: start
+        gap: 1rem
+
+        &:after
+             @include mixins.gradient-border
+
 
 .title 
-        color: variables.$text-color
+        color: variables.$text-color-secondary
         background-color: variables.$bg-color-secondary
         border-radius: variables.$card-border-radius
         margin-top: 3rem
         padding: .6rem 1.2rem
         font-family: 'Poppins', sans-serif
-        //opacity: 0.3
+        
 .img 
-        width:20% 
+        width:70% 
         height: 50%       
         border-radius: variables.$container-border-radius
         position: relative
@@ -30,4 +48,14 @@
 
 .btn     
         
-        @include mixins.btn        
+        @include mixins.btn
+        background-color: variables.$bg-color
+        :hover 
+                background-color: variables.$bg-color
+                >svg
+                
+        
+
+
+
+        

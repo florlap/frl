@@ -8,14 +8,16 @@ import Networks from './Networks';
 
 const Sidebar = () => {
   return (
-    <aside id='sidebar'>
-      <img src={require('../img/img.jpg')} alt="Foto de Florencia " width="500"height="500" />
-      <h3 className='title'> Desarrolladora Fullstack</h3>
-      
-      <Contacts/>
-       <Networks/>
-      <a href={require('../img/cv.pdf')} className='btn' target='blank'> Descargar CV</a> 
-    </aside>
+      <section>
+        <aside id='sidebar'>
+          <img src={require('../img/img.jpg')} alt="Foto de Florencia " width="500"height="500" />
+
+          <h2 className='title'> Contactos</h2>
+          <Contacts/>
+          <Networks/>
+          <a href={require('../img/cv.pdf')} className='btn' target='blank'> Descargar CV</a> 
+        </aside>
+        </section>
   )
 }
 

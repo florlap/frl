@@ -1,0 +1,54 @@
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #262626;
+  padding: 2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  width: 80%;
+  border-radius: 10px;
+}
+#contact .info-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #444;
+  width: 100%;
+}
+#contact h3 {
+  color: #a19494;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  font-family: "Roboto Flex", sans-serif;
+}
+#contact p {
+  text-decoration: none;
+  color: #d5bdd6;
+  font-weight: bold;
+  font-family: "Roboto Flex", sans-serif;
+}
+#contact svg {
+  background-color: #2e2c2c;
+  padding: 0.4rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10px;
+}
+#contact #phone-icon {
+  color: #cf8cbf;
+}
+#contact #email-icon {
+  color: #cf8cbf;
+  text-decoration: none;
+}
+#contact #pin-icon {
+  color: #cf8cbf;
+}/*# sourceMappingURL=contacts.css.map */
